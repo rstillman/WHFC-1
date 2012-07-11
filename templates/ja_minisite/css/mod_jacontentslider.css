@@ -1,0 +1,44 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* content slider */
+.ja-contentslider{ position: relative; width: 100%; overflow: hidden; }
+
+.ja-contentslider{ position: relative; width: 100%; }
+
+.ja-button-control{ overflow:hidden; margin-bottom:15px }
+
+.ja-contentslider-right { background: url(../images/ico_arrow_03.gif) 0 0 no-repeat; width:10px; height:16px; cursor:pointer; margin-right:10px; float:right}
+
+.ja-contentslider-left { background: url(../images/btn_prev.gif) 0 0 no-repeat; width:10px; height:16px; cursor:pointer; margin-right:10px; float:right}
+
+.ja-contentslider-center-wrap {  }
+
+.jsslide{
+	background: url(../images/bgd_line_02.gif) 88% 0 repeat-y;
+}
+
+.ja-contentslider .ja-image img{
+	border: #e8e8e8 solid 1px;
+	margin: 0 0 10px;
+	padding: 4px;
+}
+
+.ja-contentslider .ja-image:hover img{ background-color: #222; }
+
+.ja-contentslider .ja_slidetitle { color: #222; font-size: 125%; margin: 0 0 5px; }
+
+.ja_slideintro{ margin-bottom: 10px; padding-right: 40px }
+
+.ja-contentslider .ja_slidetitle, .ja-slidereadmore { padding-right: 40px; }

@@ -1,0 +1,5 @@
+/*** Content pages ***/
+.content .ja-content-main ul li {
+    list-style-type: none;
+    background: url("/images/buttons/carrot-buttlet.png") no-repeat scroll 10px 4px transparent;
+}

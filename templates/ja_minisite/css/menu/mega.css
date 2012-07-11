@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+
+.ja-megamenu a.over, .ja-megamenu a.active { color: #000 !important; }
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu { height: 50px; }
+
+.ja-megamenu ul.level0 li.mega { border-right: solid 1px #0a0a0a; font-size: 92%; }
+
+.ja-megamenu ul.level0 li.mega a.mega {
+	color: #FFF;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 17px 17px 13px;
+	text-transform: uppercase;
+}
+
+.ja-megamenu ul.level0 li a.active,
+.ja-megamenu ul.level0 li a.active:hover,
+.ja-megamenu ul.level0 li a.active:focus,
+.ja-megamenu ul.level0 li a.active:active {
+	background: url("/images/background/top-nav-ON-bg.png") repeat-x scroll 0 0 #FFF;
+}
+
+  
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over {
+	background: url("/images/background/top-nav-ON-bg.png") repeat-x scroll 0 0 #FFF;
+}
+
+.ja-megamenu ul.level0 li.haschild a.mega span.menu-title,
+.ja-megamenu ul.level0 li.haschild-over a.mega span.menu-title { background: none; padding-left: 0; }
+
+ .ja-megamenu ul.level0 li.first a.mega { padding-left: 13px; padding-right: 13px; }
+
+ .ja-megamenu ul.level0 li.first .has-image span.menu-title { overflow: hidden; text-indent: -9999px; }
+
+ .ja-megamenu ul.level0 li.mega .has-image { background-position: 50% 0; }
+
+.ja-megamenu ul.level1 li.mega {
+	border-bottom: #111 solid 1px;
+	border-right: none;
+	font-size: 110%;
+	width: 100%;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	line-height: normal;
+	padding: 7px 10px;
+	text-transform: none;
+}
+
+.ja-megamenu ul.level1 li.over,
+.ja-megamenu ul.level1 li.active,
+ul.level1 li.haschild-over,
+.ja-megamenu ul.level1 li.mega a.mega:hover{
+	background-image: none;
+	background-color: #EC9E00;
+}
+
+.ja-megamenu ul.level1 li.last, .ja-megamenu ul.level1 li.group { border-bottom: none; }
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .group-content ul.megamenu { margin: 0; }
+
+.ja-megamenu .childcontent { margin-left: -1px; }
+
+.ja-megamenu .childcontent-inner {
+	background: #0a0a0a;
+	color: #FFF;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title { background: #222; margin: 0 0 5px; }
+
+.ja-megamenu .group-title .menu-title { color: #FFF; font-size: 92%; text-transform: uppercase; }
+
+.ja-megamenu .childcontent ul.megamenu .ja-moduletable { margin: 10px 0; }
+
+.ja-megamenu .childcontent ul.megamenu .moduletable_sample { padding-top: 5px; }
+
+.ja-megamenu .childcontent ul.megamenu .moduletable_sample h3 { display: none; }
+
+.moduletable_sample img.left { background: #000; border: #222 solid 1px; padding: 4px; }
+
+.moduletable_sample h4 { color: #fff; margin: 0 0 8px; text-transform: none; }
+
+.ja-megamenu .childcontent .ja-moduletable .ja-box-ct { padding: 0; }
+
+.childcontent{ z-index: 999; }

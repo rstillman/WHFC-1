@@ -1,0 +1,46 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* Normal links ---*/
+p.readmore a:hover, p.readmore a:focus, p.readmore a:active { background: url(../images/bgd_arrow.gif) 0 0 no-repeat; }
+
+/* Search ---*/
+#ja-search{
+	background: url(../images/bgd_search.png) 0 100% no-repeat;
+}
+/* slideshow */
+#ja-slideshow {
+	background: url(../images/bgd_slideshow.png) 50% 0 repeat-y;
+}
+
+.mask{
+	background: url(../images/bgd_mask.png) 0 0 repeat-y;
+}
+
+/* Main Nav ---*/
+#ja-mainnav{
+	background: url(../images/bgd_mainnav.gif) 50% 50px no-repeat;
+}
+
+/* top banner */
+#ja-topbanner{
+	background: url(../images/bgd_topbanner.gif) 100% 0 repeat-y;
+}
+
+#ja-topbanner .main {
+    background-color: #BB2B2B;
+}
+
+/* Default Joomla! Menu ---*/
+#ja-container ul.menu li a:hover, #ja-container ul.menu li a:focus, #ja-container ul.menu li a:active, #ja-container ul.menu .active a{ background: url(../images/bgd_arrow.gif) 0 0 no-repeat; }

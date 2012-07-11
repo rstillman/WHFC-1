@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* Normal links ---*/
+.subCategoryMore, .k2ReadMore{
+	background: url(../images/bgd_more.gif) 0 0 no-repeat;
+	float: right;
+	padding: 0 10px 0 20px;
+}
+
+.subCategoryMore:hover, .k2ReadMore:hover { background: url(../images/bgd_arrow.gif) 0 0 no-repeat; }
+
+/* Comments */
+div.itemCommentsForm form input#submitCommentButton {
+	background-image: url(../images/ico_arrow_01.png);
+	background-position: 10px 50%;
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+
+/* Component: Item view */
+div.itemToolbar ul li .itemTextResizerTitle{ display: inline-block; padding: 0 4px; }
+
+div.itemToolbar ul li #fontDecrease, div.itemToolbar ul li #fontIncrease { display: inline-block; }
+
+div.itemToolbar ul > li:first-child{ border-left: #ccc solid 1px; margin-left: 4px; }
+
+div.itemToolbar ul.itemRatingList > li:first-child{ border-left: none; }
+
+div.itemRatingBlock{ float: right; width: 45%; }
+
+div.itemToolbar ul{ float: left; }
+
+div.itemToolbar ul li{ border-left: none; border-right: #ccc solid 1px; }
+
+div.itemToolbar ul > li:first-child{ border-left: none; margin: 0; }
+
+div.itemRatingBlock span{ padding-top: 1px; }
+
+div.catItemRatingBlock span, .itemRatingForm, div.itemRatingBlock span{ float: right; padding: 0 0 0 4px; }
+
+.itemRatingList a, .itemRatingList .itemCurrentRating{ text-decoration: none; }
+
+div.itemToolbar ul li a{ display: inline-block; }
+
+div.itemTagsBlock ul.itemTags li, .ja-content-main ul.itemTags li{ display: inline-block; }
+
+div.itemTagsBlock span{ float: right; }
+
+.itemToolbar .itemRatingList{ float: right; }
+
+/* User items */
+div.userItemCategory { overflow: hidden; }
+
+div.userItemCommentsLink {
+	border-left: #e8e8e8 solid 1px;
+	border-right: none;
+	float: right;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
+}
+
+div.userItemCategory div.userItemCommentsLink a{ float: none; margin: 0; }
+
+div.userItemCategory span{ float: right; padding: 0 2px; }
+
+div.userItemCategory a { float: right; margin: 0 4px; }
+
+.itemRatingForm ul, .column .itemRatingForm ul { float:right; margin-left:4px; }

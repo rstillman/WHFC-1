@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* Blockquote ---*/
+blockquote.blockquote-2 span.open {
+	background: url(../images/typo/sc-q.gif) no-repeat right top;
+	padding: 0 20px 0 0;
+}
+
+blockquote.blockquote-2 span.close {
+	background: url(../images/typo/so-q.gif) no-repeat bottom left;
+	padding: 0 0 0 20px;
+}
+
+/* TYPO PAGE LAYOUT
+-------------------------------------------------------------*/
+
+/* LIST STYLES
+-----------------------------------------------------------------*/
+/* Special list style ---*/
+ul.ja-typo-list span.icon{ left: auto; right: 0; }
+
+/* ICON STYLE
+-----------------------------------------------------------------*/
+/* Tips, Error, Message, Hightlight ---*/
+p.ja-typo-icon { padding-left: 0; padding-right: 25px; }
+
+p.ja-typo-icon span.icon{ left: auto; right: 0; }
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+/* Box style ---*/
+p.ja-typo-box {
+	background-position: 98% 15px;
+	padding-left: 10px;
+	padding-right: 65px;
+}
+
+/* Icon Buttons ---*/
+a.ja-typo-btn-icn {
+	background: url(../images/typo/btn-bg.gif) 0 0 no-repeat;
+}
+
+a.ja-typo-btn-icn span{ float: left; }
+
+a.ja-typo-btn-icn span {
+	background-position: 95% 50%;
+	cursor: pointer;
+	padding: 0 33px 0 15px;
+}
+
+a.ja-typo-btn-icn span span{ padding: 0; }
+
+/* Button Olde Blue*/
+a.btn-blue1:hover,
+a.btn-blue1:active,
+a.btn-blue1:focus {
+	background-image: url(../images/typo/btn-blue1-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button Olde Green*/
+a.btn-green:hover,
+a.btn-green:active,
+a.btn-green:focus {
+	background-image: url(../images/typo/btn-green-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button Yellow*/
+a.btn-yellow:hover,
+a.btn-yellow:active,
+a.btn-yellow:focus {
+	background-image: url(../images/typo/btn-yellow-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button red*/
+a.btn-red:hover,
+a.btn-red:active,
+a.btn-red:focus {
+	background-image: url(../images/typo/btn-red-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button Blue*/
+a.btn-blue:hover,
+a.btn-blue:active,
+a.btn-blue:focus {
+	background-image: url(../images/typo/btn-blue-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button Pink*/
+a.btn-pink:hover,
+a.btn-pink:active,
+a.btn-pink:focus {
+	background-image: url(../images/typo/btn-pink-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button orange*/
+a.btn-orange:hover,
+a.btn-orange:active,
+a.btn-orange:focus {
+	background-image: url(../images/typo/btn-orange-hover.gif);
+	background-position: 0 0;
+}
+
+/* Button Olde Green*/
+a.btn-green1:hover,
+a.btn-green1:active,
+a.btn-green1:focus {
+	background-image: url(../images/typo/btn-green1-hover.gif);
+	background-position: 0 0;
+}
+
+/* Common style for Dark Buttons --- */
+a.btn-big {
+	background: url(../images/typo/btn-bg.gif) 0 0 no-repeat;
+	padding: 0 10px 0 20px;
+}
+
+/* badge */
+.badge { left: 0; right: auto; }
+
+.badge-hot .badge { left: 20px; right: auto; }
+
+#ja-typo .moduletable_badge{ width: 87%; }
+
+.column .ja-typo-block div.moduletable_white, .ja-typo-blockdiv .moduletable_white, #ja-right .ja-typo-block div.moduletable_white{ width: 99.5%; }
+
+/* FORM
+--------------------------------------------------*/
+form.ja-typo-form p label, form.ja-typo-form div label{ float: right; }
+
+form.ja-typo-form button{
+	background-image: url(../images/ico_arrow_01.png);
+	background-position: 10px 50%;
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+
+/* Big Number ---*/
+p.blocknumber { padding: 5px 55px 5px 0 !important; }
+
+p.blocknumber .bignumber{ left: auto; right: 0; }
+
+/* BUTTONS
+--------------------------------------------------*/
+/* Common Buttons Style ---*/
+/*Use for Demo Page Only*/
+#ja-typo a.ja-typo-btn { float: right; margin: 20px 0 10px 30px; }

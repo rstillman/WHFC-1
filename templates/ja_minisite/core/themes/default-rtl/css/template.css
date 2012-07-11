@@ -1,0 +1,280 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* Normal links ---*/
+p.readmore a{
+	background: url(../images/bgd_more.gif) 0 0 no-repeat;
+	float: right;
+	padding: 0 10px 0 20px;
+}
+
+p.readmore a:hover, p.readmore a:focus, p.readmore a:active { background: url(../images/bgd_arrow.gif) 0 0 no-repeat; }
+
+/* Call Toll-Free */
+.tollfree{ float: left; }
+
+.liveConsulation{ text-align: left; }
+
+.liveConsulation a{
+	background: url(../images/ico_arrow_01.png) 0 3px no-repeat;
+	padding: 0 0 0 14px;
+}
+
+/* Search ---*/
+#ja-search{
+	background: url(../images/bgd_search.png) 0 100% no-repeat;
+	left: -10px;
+}
+
+#ja-search .inputbox{ float: right; }
+
+/* slideshow */
+#ja-slideshow {
+	background: url(../images/bgd_slideshow.png) 50% 0 repeat-y;
+}
+
+.mask{
+	background: url(../images/bgd_mask.png) 0 0 repeat-y;
+	left: auto;
+	right: 0;
+}
+
+.ja-slide-item{ text-align: left; }
+
+.maskDesc .ja-slide-desc, #ja-slideshow .ja-slide-buttons { left: auto !important; right: 0 !important; }
+
+#ja-slideshow .readon{ left: 480px; padding: 0 10px; width: auto; }
+
+#ja-slideshow .readon span{
+	background: url(../images/ico_arrow_01.png) 0 50% no-repeat;
+	display: block;
+	padding: 0 0 0 18px;
+}
+
+#ja-slideshow .ja-articles .readon { background: #186fb2 url(../images/ico_arrow_01.png) 5px 50% no-repeat; left:0; width:85px }
+
+/* Breadcrumbs ---*/
+#ja-breadcrums{
+	background: url(../images/bgd_breadcrums.gif) 50% 0 repeat-y;
+}
+
+.ja-day{ float: left; padding-left: 10px; }
+
+/* img */
+img.left { margin: 0 0 5px 10px; }
+
+.left { float: right; }
+
+#ja-topsl-2 .ja-box-right .left { margin-left: 20px; margin-right: 0; }
+
+/* Main Nav ---*/
+#ja-mainnav{
+	background: url(../images/bgd_mainnav.gif) 50% 50px no-repeat;
+}
+
+/* slide news */
+.ja-slidenews-item .ja-createdate{ left: 0; right: auto; }
+
+/* top banner */
+#ja-topbanner{
+	background: url(../images/bgd_topbanner.gif) 100% 0 repeat-y;
+}
+
+#ja-topbanner .main{
+	background: #186fb2 url(../images/bgd_shadow.png) 0 0 no-repeat;
+}
+
+#ja-topbanner h3{ padding-left: 7px; text-align: left; }
+
+/* Default Joomla! Menu ---*/
+#ja-container ul.menu li a{ float: right; padding-left: 20px; padding-right: 10px; }
+
+#ja-container ul.menu li a:hover, #ja-container ul.menu li a:focus, #ja-container ul.menu li a:active, #ja-container ul.menu .active a{ background: url(../images/bgd_arrow.gif) 0 0 no-repeat; }
+
+#ja-container ul.menu li li { background-position: 100% 8px; }
+
+/* form comment */
+#jac-wrapper li.buttons{ width: auto !important; }
+
+#jac-wrapper li span { float: right; }
+
+#jac-new-captcha{ float: right; }
+
+#jac-wrapper .form-userdata span{ margin-left: 10px; margin-right: 0; }
+
+#jac-wrapper li.buttons input {
+	background-image: url(../images/ico_arrow_01.png);
+	background-position: 10px 50%;
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+
+#jac-wrapper .listBtn{ float: right; }
+
+#jac-wrapper .comment-quoteclose{ float: right; margin-top: 5px; }
+
+/* icon social */
+#ja-botsl .moduletable_connectus .listIcon a { float: right; margin: 0 0 0 10px; }
+
+/* spotlight bottom */
+#ja-botsl-2 .ja-moduletable{ padding-left: 0; padding-right: 139px; }
+
+#ja-botsl-2 img.left { left: auto; margin: 0; right: 0; }
+
+#ja-botsl-2 .intro{
+	border-left: none;
+	border-right: 1px solid #E8E8E8;
+	padding: 10px 20px 10px 0;
+}
+
+#ja-topsl li, #ja-botsl li{ padding-right: 0; }
+
+.moduletable_newsletter .inputbox{ margin: 0; width: 148px; }
+
+.moduletable_newsletter .button{ float: right; }
+
+div.k2LatestCommentsBlock ul li{ padding-left: 0; padding-right: 50px; }
+
+div.k2LatestCommentsBlock ul li a.lcAvatar img{ left: auto; right: 0; }
+
+.itemRatingLog{ white-space: nowrap; }
+
+/* Contact ---*/
+#component-contact img[align=right] { float:left }
+
+.jcontact-address .jicons-icons, .contact-miscinfo .jicons-icons { float:right; margin-left:10px; margin-right:0 }
+
+.jcontact-address address, .contact-misc { float:right }
+
+.form-validate #contact_email_copy { float:right; width:auto; margin-left:10px; margin-right:0 }
+
+.jcontact-contactinfo img {margin-left:10px; margin-right:0}
+
+/* footer */
+.t3-logo a span, .t3-logo-sm a span{ display: none; }
+
+/* categories content */
+div.itemListSubCategories h3{ padding-right: 10px; }
+
+div.itemSocialLinksBlock span, div.itemSocialLinksBlock ul.itemSocialLinks{ float: right; }
+
+div.itemAuthorBlock img.itemAuthorAvatar{ float: right; margin: 0 0 0 10px; }
+
+div.itemRelated .odd, div.itemRelated .even, div.itemAuthorLatest .odd, div.itemAuthorLatest .even{
+	background-position: 98% 7px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+div.itemComments ul.itemCommentsList li img{ float: right; margin-left: 10px; margin-right: 0; }
+
+div.itemComments ul.itemCommentsList li span.commentLink{ float: left; }
+
+/* tabs */
+#ja-bulletin ul div, ul.ja-bullettin div {
+	padding-left: 0 !important;
+	padding-right: 50px !important;
+	text-transform: capitalize;
+}
+
+#ja-bulletin ul img, ul.ja-bullettin img{ left: auto !important; right: 0; }
+
+.minisite .ja-tabs-title-top ul.ja-tabs-title li{ margin: 0 0 0 1px; }
+
+/* submenu */
+#ja-container ul.menu li ul{ margin-left: 0; margin-right: 20px; }
+
+#ja-container ul.menu li ul ul{ margin-left: 0; margin-right: 10px; }
+
+.jac-add-button{ overflow: hidden; }
+
+.jac-add-button .jac-links{
+	background-position: 100% 50% !important;
+	display: block;
+	float: right;
+	padding-left: 0 !important;
+	padding-right: 20px;
+}
+
+/* web links */
+.weblinks td img{ margin: 0 0 5px 10px; }
+
+/* login */
+#ja-popup-header h3.ja-popup-title { float: right; }
+
+#ja-popup-header #ja-close-button{ float: left; margin-left: 10px; }
+
+#ja-popup-footer .inner span{ float: right; margin-right: 10px; }
+
+/* footer */
+#ja-poweredby{ left: 0; right: auto; }
+
+.ja-copyright, #ja-footer .ja-footnav { text-align: right; }
+
+.ja-content-main .counter { margin-left:3px }
+
+/* the news */
+img.caption { float:left }
+
+/* paging */
+.pagination { float: left }
+
+.ja-content-main .counter { float:left }
+
+.pagination ul li {
+	padding-right: 0 !important;
+}
+
+/* list categories */
+div.categories-list ul li,
+div.categories-list ul li li,
+.ja-moduletable ul li, .ja-module ul li,
+.ja-content-main ul li { 
+	padding:0 30px 0 0; 
+	background-position: 97% 7px; 
+}
+
+/* icon style */
+ul.actions { padding-right: 0; }
+
+/* Contact ---*/
+#contact-slider .contact-image {
+	float: none;
+}
+
+.contact-miscinfo .jicons-icons, .contact-miscinfo .contact-misc {
+	float: right;   
+}
+
+.contact-miscinfo .jicons-icons {
+	margin-left: 5px;
+}
+
+/* Advanced search */
+.search fieldset.word label,
+.search fieldset.word input,
+.search fieldset.word button { float: right; margin-left: 8px; margin-right: 0; }
+
+/* content slider */
+.jsslide{
+	background-position: 12% 0;
+}
+
+.ja-contentslider .ja_slidetitle, .ja-slidereadmore, .ja_slideintro {
+	padding-right: 0;
+	padding-left: 40px;	
+}

@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+.ja-typo-blockswrap h1.ja-typo-title { font-size: 150%; }
+
+.ja-typo-blockswrap .cols-3 .ja-typo-block{ float: none; width: 100%; }
+
+.column ol{ margin-left: 20px; }
+
+.ja-typo-blockswrap .cols-2 .ja-typo-block{ float: none; width: 100%; }
+
+form.ja-typo-form textarea, form.ja-typo-form .inputbox, form.ja-typo-form select{ padding: 3px 5px; }
+
+form.ja-typo-form button{ margin-bottom: 10px; }
+
+#jac-wrapper .comment-report, #jac-wrapper .comment-ranking{margin-bottom:5px;}
+
+#ja-typo .moduletable_badge{position:relative}

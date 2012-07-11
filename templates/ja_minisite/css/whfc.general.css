@@ -1,0 +1,279 @@
+/*** General ***/
+h1, h2, h3 {
+    font-family: 'DINNextW01-CondensedBol';
+    font-weight: normal;
+}
+
+.bodyhomepage a,
+.bodysubpage a {
+    color: #578CB7;
+}
+
+.bodyhomepage input,
+.bodyhomepage select,
+.bodyhomepage textarea,
+.bodyhomepage .inputbox,
+.bodysubpage input,
+.bodysubpage select,
+.bodysubpage textarea,
+.bodysubpage .inputbox {
+    color: #555;
+    font-style: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0 5px 0 0;
+}
+
+.bodyhomepage input[readonly='readonly'],
+.bodysubpage input[readonly='readonly'] {
+    background-color: #FBFCFE;
+    border: none;
+}
+
+/* Search button */
+form.search .button {
+    margin: 0;
+}
+
+/* Read more */
+.bodyhomepage p.readmore a,
+.bodysubpage p.readmore a,
+.bodyhomepage p.readmore a:hover,
+.bodysubpage p.readmore a:hover,
+.bodyhomepage p.readmore a:focus,
+.bodysubpage p.readmore a:focus,
+.bodyhomepage p.readmore a:active,
+.bodysubpage p.readmore a:active {
+    background: url("/images/buttons/learn-more-btn.png") no-repeat scroll 100% 0 transparent;
+    text-indent: -5000px;
+    height: 41px;
+    line-height: 41px;
+    width: 105px;
+    padding: 0px;
+    float: right;
+}
+
+/* Toolbar */
+.bodyhomepage .ja-content-main .article-tools,
+.bodysubpage .ja-content-main .article-tools {
+    display: none;
+}
+
+/*** Header ***/
+#header-mainnav {
+    background: url("/images/background/header-bg.png") repeat-x scroll 0 0 #C6C6C6;
+}
+
+/* Top link and logo */
+.tollfree {
+    text-align: right;
+    padding-top: 20px;
+}
+
+#toplink {
+    padding-top: 8px;
+}
+
+#toplink a {
+    color: #555555;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+#toplink a.last {
+    padding-right: 0;
+}
+
+#toplogo a {
+    padding-left: 15px;
+}
+
+/* User name module */
+#toplink span.username {
+    color: #555555;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+#toplink span.username strong a {
+    padding: 0 5px;
+}
+
+#toplink a.logout {
+    padding: 0;
+}
+
+/*** Home page bottom ***/
+.bodyhomepage #ja-navhelper,
+.bodysubpage #ja-navhelper {
+    display: none;
+}
+
+.bodyhomepage #bottom,
+.bodysubpage #bottom {
+    background: url("/images/background/footer-bg.png") repeat-x scroll 0 0;
+}
+
+.bodyhomepage #ja-footer,
+.bodysubpage #ja-footer {
+    display: none;
+}
+
+.bodyhomepage #ja-botsl .ja-box-left,
+.bodysubpage #ja-botsl .ja-box-left {
+    padding-top: 2px;
+}
+
+.bodyhomepage #ja-botsl .main,
+.bodysubpage #ja-botsl .main {
+    border-top: none;
+}
+
+/* Footer category */
+.bodyhomepage #ja-botsl h3,
+.bodysubpage #ja-botsl h3 {
+    text-transform: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #6F6F6F;
+}
+
+.bodyhomepage #ja-botsl h5,
+.bodysubpage #ja-botsl h5 {
+    font-weight: normal;
+}
+
+.bodyhomepage #ja-botsl .ja-box table td,
+.bodysubpage #ja-botsl .ja-box table td {
+    vertical-align: baseline;
+    padding: 0 25px 10px 0;
+    max-width: 160px;
+}
+
+.bodyhomepage #ja-botsl .ja-moduletable, #ja-botsl .moduletable,
+.bodysubpage #ja-botsl .ja-moduletable, #ja-botsl .moduletable {
+    border-right: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer stay connect module */
+.bodyhomepage #ja-botsl .ja-box-right,
+.bodysubpage #ja-botsl .ja-box-right {
+    max-width: 200px;
+}
+
+.bodyhomepage span.acymailing_introtext,
+.bodysubpage span.acymailing_introtext {
+    margin-bottom: 5px;
+    text-transform: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #6F6F6F;
+    font-size: 12px;
+}
+
+.bodyhomepage #ja-botsl .ja-moduletable p.acymailing_introtext2,
+.bodysubpage #ja-botsl .ja-moduletable p.acymailing_introtext2 {
+    margin-top: 3px;
+}
+
+.bodyhomepage span.acyfield_email,
+.bodysubpage span.acyfield_email {
+    display: block;
+    margin: 3px 0 5px 0;
+    float: left;
+}
+
+.bodyhomepage span.acyfield_email input.inputbox,
+.bodysubpage span.acyfield_email input.inputbox {
+    width: 150px;
+    height: 18px;
+}
+
+.bodyhomepage div.acymailing_form input.subbutton,
+.bodysubpage div.acymailing_form input.subbutton {
+    float: right;
+    margin-top: 1px;
+}
+
+.bodyhomepage div.acymailing_form p.acysubbuttons,
+.bodysubpage div.acymailing_form p.acysubbuttons {
+    text-align: left;
+}
+
+.bodyhomepage div.acymailing_form p.acysubbuttons a,
+.bodysubpage div.acymailing_form p.acysubbuttons a {
+    color: #999999;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Footer connect with us module */
+.bodyhomepage .footerConnectWithUs,
+.bodysubpage .footerConnectWithUs {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.bodyhomepage .footerConnectWithUs #toplogo a,
+.bodysubpage .footerConnectWithUs #toplogo a {
+    padding: 0 15px 0 0;
+}
+
+/* Footer logo */
+.bodyhomepage #ja-botsl-2 .main,
+.bodysubpage #ja-botsl-2 .main {
+    border-top: 4px solid #F3E0BD;
+    padding: 15px 0;
+}
+
+.bodyhomepage .footerLogo td,
+.bodysubpage .footerLogo td {
+    vertical-align: top;
+    font-size: 14px;
+    padding: 0;
+}
+
+.bodyhomepage #ja-botsl-2 p,
+.bodysubpage #ja-botsl-2 p {
+    padding-left: 45px;
+    font-size: 12px;
+    color: #999999;
+}
+
+/* User login popup*/
+div.form_qlogginpopup .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.form_qlogginpopup .form-password {
+    margin: 10px 0;
+}
+
+div.form_qlogginpopup .form-remember input {
+    margin: 0;
+    padding: 0;
+}
+
+div.form_qlogginpopup .form-submit {
+    margin: 10px 0;    
+}
+
+div.form_qlogginpopup .form-submit input {
+    background: none repeat scroll 0 0 #1478C4;
+    border: medium none;
+    color: #FFFFFF;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+div.form_qlogginpopup .form-submit input:hover {
+    background: none repeat scroll 0 0 #222222;
+}
+
+.body-overlayed {
+    overflow-x: hidden;
+    overflow-y: auto;
+}

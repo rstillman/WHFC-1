@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* ------------------- */
+/* -- navigation -- */
+/* ------------------- */
+.ja-megamenu .childcontent-inner, #ja-subnav ul li ul, #ja-cssmenu li ul, #ja-subnav ul li ul, #jasdl-subnav, .sublevel {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+}
+
+/* -- frontpage menu -- */
+div.userItemTagsBlock ul.userItemTags li a, div.catItemCategory a, div.catItemTagsBlock ul.catItemTags li a, div.itemCategory a, ul.itemTags li a {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+

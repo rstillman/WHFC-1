@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------
+Originally developed by Patrick Griffiths and Dan Webb
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+---------------------------------------------------------
+NOTE: After a deep research, we decide to divide this
+CSS into 2 parts. The first part will define the layout.
+The second part will define the visual look for this menu.
+---------------------------------------------------------*/
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ja-cssmenu { height: 50px; }
+
+#ja-cssmenu li { border-right: solid 1px #0a0a0a; font-size: 92%; }
+
+#ja-cssmenu li a {
+	color: #666;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 17px 17px 13px;
+	text-transform: uppercase;
+}
+
+#ja-cssmenu > .first-item a { padding-left: 13px; padding-right: 13px; }
+
+#ja-cssmenu .first-item .has-image .menu-title { overflow: hidden; text-indent: -9999px; }
+
+#ja-cssmenu .first-item span.has-image { background-position: 50% 0; }
+
+#ja-cssmenu li:hover, #ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background: url(../../images/bgd_nav_hover.gif) 0 0 repeat-x #0a0a0a;
+}
+
+#ja-cssmenu li a:hover, #ja-cssmenu li a:active,
+#ja-cssmenu li a:focus, #ja-cssmenu li a.sfhover { color: #fff; }
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background: url(../../images/bgd_nav_active.gif) 0 0 repeat-x #186fb2;
+	color: #fff;
+}
+
+#ja-cssmenu ul li a.active, #ja-cssmenu ul li a.active:hover,
+#ja-cssmenu ul li a.active:active, #ja-cssmenu ul li a.active:focus { background: none; font-weight: normal; }
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+	background: #0a0a0a;
+	border-bottom: solid 5px #1478C4;
+	margin-left: -1px;
+	padding: 10px;
+}
+
+#ja-cssmenu li ul li {
+	border-bottom: solid 1px #111;
+	border-right: none;
+	font-size: 110%;
+	padding: 0;
+	width: 100%;
+}
+
+#ja-cssmenu li ul a {
+	color: #666;
+	padding: 7px 10px;
+	text-transform: none;
+	width: auto;
+}
+
+#ja-cssmenu li li.last-item { border-bottom: none; }
+
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover { background: none; }
+
+#ja-cssmenu li ul ul { margin-left: 13em; }

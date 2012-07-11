@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+#ja-container .main {
+	
+}
+
+/* --- Sub-category block --- */
+div.itemListSubCategories { width: 103%; }
+
+div.itemListSubCategories h3{ margin-top: 0; }
+
+br.clearfix, div.clr{
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.form-validate button{ height: 19px; line-height: 19px; padding: 0 5px; }
+
+#jac-wrapper .comment-menu .menu-content li{ float: left; overflow: hidden; }
+
+.form-validate #contact_email_copy {margin-top:0 }
+
+#jac-wrapper .comment-quoteclose {
+	position: absolute;
+}
+
+/*** Home page ***/
+
+/* Footer stay connect module */
+.bodyhomepage div.acymailing_form input.subbutton {
+	margin-top: 2px;
+}

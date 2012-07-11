@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+body.bd-iphone{
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+/* Readon links ---*/
+p.readmore{ overflow: hidden; }
+
+p.readmore a{
+	background: url(../../images/bgd_more.gif) 100% 0 no-repeat;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 20px 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+p.readmore a:hover, p.readmore a:focus, p.readmore a:active {
+	background: url(../../images/bgd_arrow.gif) 100% 0 no-repeat;
+	color: #fff;
+}
+
+p.readmore a , .subCategoryMore, .k2ReadMore{ font-size: 8pt; font-weight: normal; }
+
+p.readmore a:hover, p.readmore a:active, p.readmore a:focus , .article-tools a:hover{ text-decoration: none; }
+
+/* Headings & Titles ---*/
+.contentheading, .componentheading, h1, h2, h3, h4, h5{ font-family: Arial, Helvetica, sans-serif; }
+
+h1.componentheading, .componentheading, div.catItemHeader h3.catItemTitle, h2.latestItemTitle, div.genericItemHeader h2.genericItemTitle, div.userItemHeader h3.userItemTitle, div.itemHeader h2.itemTitle{ color: #222; font-size: 16pt; }
+
+body.com_content h1.componentheading, body.com_content .componentheading{padding-left:0}
+
+/* Logo Image ---*/
+h1.logo { height: 63px; width: 115px; }
+
+h1.logo a {
+	background: url(../../images/logo.png) no-repeat center;
+	display: block;
+	height: 63px;
+	width: 115px;
+}
+
+/* Inline images ---*/
+img.img-border{ border: #e8e8e8 solid 1px; padding: 4px; width: 96.5%; }
+
+img.left{ margin-right: 10px; }
+
+.img_caption img{ width: 96.5%; }
+
+/* search */
+#ja-search .button{ display: none; }
+
+/* Meta ---*/
+.article-tools, #k2Container .article-info {
+	color: #999;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 8pt;
+	font-style: italic;
+}
+
+.article-tools a{ text-decoration: underline; }
+
+/* k2 content */
+span.jitem-title{
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-transform: none;
+}
+
+div.subCategory h2{ font-size: 12pt; text-transform: none; }
+
+div.subCategoryContainer{ float: none; width: 100% !important; }
+
+div.cat-children div.category-images img { width: 96.5%; border: #e8e8e8 solid 1px; padding: 4px; }
+
+div.itemRelated .odd, div.itemRelated .even, div.itemAuthorLatest .odd, div.itemAuthorLatest .even {
+	background: url(../../images/bullet.gif) 10px 8px no-repeat;
+}
+
+div.itemCommentsForm form textarea.inputbox, div.itemCommentsForm form input.inputbox{ width: 96%; }
+
+div.itemComments ul.itemCommentsList li span.commentAuthorName, div.itemComments ul.itemCommentsList li span.commentDate, div.itemComments ul.itemCommentsList li span.commentLink a{ font-size: 8pt; }
+
+/* counter */
+.ja-content-main .k2Pagination .counter{ right: 10px; }
+
+.jac-add-button{
+	padding-bottom: 10px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+#jac-wrapper .comment-action a { clear: right; margin-bottom: 5px; }
+
+#jac-wrapper .pagination { padding-bottom: 10px !important; width:100%; float:none; margin-bottom:10px !important; padding-top:10px !important; }
+
+#ja-popup-wrap { left: 0 !important; }
+
+.pagenav { display: inline; }
+
+/* popup login */
+#ja-popup-header-wrap, #ja-popup-content-wrap, #ja-popup-footer-wrap{ width: 300px !important; }
+
+#jac-login-joomla-form { overflow: hidden; padding: 0; width: 100%; }
+
+iframe#iContent { overflow: hidden; }
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+
+body.bd-iphone #ja-content-main {
+	-webkit-border-radius: 8px;
+	background-color: #fff;
+	border: #878787 solid 1px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	display: block;
+	margin: 3px 9px 17px;
+	padding: 9px;
+}
+
+body.bd-iphone h1.componentheading,
+body.bd-iphone .componentheading {
+	position: relative;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #4c4c4c;
+	text-shadow: #FFF 0 1px 0;
+	padding: 0 9px 9px;
+	margin: 0 -9px 13px;
+	border-bottom: 1px solid #878787;
+}
+
+body.com_content #ja-container .item-page, body.com_content #ja-container .item, body.com_content #ja-container .leading { padding: 10px; }
+
+.category { margin: 0 10px 10px 10px; }
+
+.category th, .weblinks th{ background: #3f5c84; color: #fff; }
+
+.category th a, .weblinks th a{ color: #fff; }
+
+.category td, .category th, .weblinks th, .weblinks td{
+	border-bottom: #878787 solid 1px;
+	padding: 5px;
+	text-align: left;
+}
+
+.filter-search .inputbox{ width: 70px; }
+
+.ja-content-main fieldset.filters { padding: 10px; }
+
+.ja-content-main fieldset.filters .filter-search, .ja-content-main fieldset.filters .display-limit{ width: 50%; }
+
+/* web link */
+.weblinks .contentdescription img {
+    border: 1px solid #E8E8E8;
+    margin: 0 10px 5px 0;
+    padding: 4px;
+}
+
+.weblinks { margin-bottom:0 }
+ 
+.sortby{margin-bottom:10px;}
+
+.weblinks td img {
+    margin: 0 5px 5px 0;
+    vertical-align: middle;
+}
+
+/* bullet for ul */
+.column .item-page ul, .column .leading { list-style: inside; }
+
+.column .item-page ul li, .column .leading ul li { list-style-type: disc; }
+
+#ja-login p#form-login-submit input.button { min-width: inherit; }

@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* COMMON STYLE
+--------------------------------------------------------- */
+/* Normal links ---*/
+p.readmore a:hover, p.readmore a:focus, p.readmore a:active {
+	background: url(../images/bgd_arrow.gif) 100% 0 no-repeat;
+}
+
+a , .staffInfo a:hover, .staffInfo:hover a{ color: #e98500; text-decoration: none; }
+
+/* Logo Image ---*/
+h1.logo a { background: url(../images/logo.png) 0 0 no-repeat; }
+
+/* Main Nav ---*/
+#ja-mainnav{
+	background: url(../images/bgd_mainnav.gif) 50% 50px no-repeat;
+}
+
+/* Search ---*/
+#ja-search{
+	background: url(../images/bgd_search.png) 100% 100% no-repeat;
+}
+
+.form-validate button{ background:#e98500; }
+
+/* slideshow ---*/
+#ja-slideshow { background: url(../images/bgd_info.png) 50% 0 repeat-y; }
+
+.mask{ background: url(../images/bgd_mask.png) 0 0 repeat-y; }
+
+#ja-slideshow .readon{ background: #222; }
+
+/* Default Joomla! Menu ---*/
+#ja-container ul.menu li a:hover, #ja-container ul.menu li a:focus, #ja-container ul.menu li a:active, #ja-container ul.menu .active a{
+	background: url(../images/bgd_arrow.gif) 100% 0 no-repeat;
+}
+
+div.itemCommentsForm form input#submitCommentButton{ background-color: #e98500; }
+
+/* Monthly Newsletter */
+.moduletable_newsletter .button, #login-form .button, form.poll .button, .pagination ul li span.pagenav, .contentpaneopen .button, #jac-wrapper li.buttons input{ background-color: #e98500; }
+
+/* Pagination ---*/
+.pagination ul li strong:hover a, .ja-footnav li a:hover, #ja-botsl li a:hover{ color: #e98500; }
+
+/* top banner */
+#ja-topbanner{
+	background: #fff url(../images/bgd_topbanner.gif) 0 0 repeat-y;
+}
+
+#ja-topbanner .main{ background-color: #e8c44d; }
+
+#ja-topbanner h3 { color: #f6d66b; }
+
+/* comment */
+/* REPLY ACTION */
+#jac-wrapper .comment-contentholder:hover .comment-reply a,
+#jac-wrapper .comment-contentholder:hover .comment-reply a:hover { background: #e98500; }
+
+/* HIGH VIEW THRESHOLD ---*/
+#jac-wrapper .rank-high .comment-rankingresult { color: #e98500; }
+
+/* sample content */
+.column div.moduletable_type, div.moduletable_type, #ja-right div.moduletable_type{
+	background: url(../images/bgd_theme.gif) 0 0 repeat;
+	color: #ffe7c6;
+}
+
+div.moduletable_black .ja-box-ct{
+	background: url(../images/corner.gif) 100% 100% no-repeat;
+}
+
+/* frontpage menu */
+#ja-container ul.menu li li a:hover, #ja-container ul.menu .active li a:hover{ color: #e98500; }
+
+#ja-container ul.menu li li.active > a{ color: #e98500; }
+
+/* Typo */
+form.ja-typo-form button { background-color: #e98500; }
+
+/* Tabs */
+#ja-bulletin a.mostread:hover, ul.ja-bullettin a.mostread:hover{ color: #e98500 !important; }

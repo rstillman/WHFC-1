@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* slide news*/
+#ja-right .ja-r2 .ja-right2, #ja-right{ overflow: visible; }
+
+.moduletable_slidenews{ background-color: #fffceb; border: #e8e1b8 solid 1px; }
+
+#ja-right div.moduletable_slidenews{ margin-left: -1px; margin-top: -1px; z-index: 20; }
+
+#ja-right div.moduletable_slidenews .corner{
+	background: url(../images/corner_01.gif) 0 0 no-repeat;
+	bottom: -1px;
+	display: block;
+	height: 10px;
+	position: absolute;
+	right: -1px;
+	width: 10px;
+	z-index: 10;
+}
+
+.ja-slidenews-item .ja-title{
+	color: #222;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.ja-slidenews-item{
+	position: relative;
+}
+
+.ja-slidenews-inner{ width: 100%; }
+
+.ja-slidenews-item .readon{ font-size: 100%; }
+
+.ja-slidenews-item .ja-createdate{
+	background: url(../images/bgd_date.png) 0 0 no-repeat;
+	color: #fff;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	height: 52px;
+	padding: 0;
+	padding: 8px 0 0 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 10px;
+	width: 60px;
+}
+
+.ja-slidenews-item .ja-createdate2{ background-position: 0 -60px; }
+
+.ja-createdate span{ display: block; line-height: 1; }
+
+.ja-createdate .day {
+	font-family: 'BebasNeueRegular', Arial, sans-serif;
+	font-size: 300%;
+	font-weight: normal;
+}
+
+.ja-createdate .month{ text-transform: uppercase; }

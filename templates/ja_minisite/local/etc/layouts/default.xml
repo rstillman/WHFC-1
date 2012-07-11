@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout name="desktop">
+	<!--Extra css load for this layout-->
+	<stylesheets>
+		<file>css/whfc.general.css</file>
+		<file>css/whfc.homepage.css</file>
+		<file>css/whfc.subpage.css</file>
+		<file>css/whfc.subpage.rsform.css</file>
+	</stylesheets>
+	<blocks name="top" style="xhtml">	
+		<block name="header-mainnav" type="header-mainnav"></block>
+		<block name="cpanel" type="usertools/cpanel"></block>
+		<block name="slideshow" type="modules" style="raw">slideshow</block>
+		<block name="topbanner" type="modules">topbanner</block>
+		<block name="breadcrums" type="breadcrums"></block>
+		<block name="topsl-2" type="spotlight">user9,user10</block>
+		<block name="topsl" type="spotlight">user1,user2,user3,user4</block>
+		<block name="topsl1" type="spotlight">user5,user6,user7,user8</block>
+
+	</blocks>
+	<blocks name="middle">
+		<block name="right1">left</block>
+		<block name="right2">right</block>
+		<block name="content-top">content-top</block>
+		<block name="content-main">content</block>
+		<block name="content-bottom">content-bottom</block>
+	</blocks>
+	<blocks name="bottom" style="xhtml">
+		<block name="navhelper" type="navhelper"></block>
+		<block name="botsl" type="spotlight">user11,user12,user13,user14</block>
+		<block name="botsl1" type="spotlight">user15,user16,user17,user18</block>
+		<block name="botsl-2" type="spotlight">user19</block>
+		<block name="footer" type="footer"></block>
+	</blocks>
+</layout>

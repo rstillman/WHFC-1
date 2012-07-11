@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* COMMON STYLE */
+.ja-megamenu ul.level0 li a.active,
+ .ja-megamenu ul.level0 li a.active:hover,
+ .ja-megamenu ul.level0 li a.active:focus,
+ .ja-megamenu ul.level0 li a.active:active {
+	background: #7dab00 url(../../images/bgd_nav_active.gif) 0 0 repeat-x;
+}
+
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over {
+	background: #0a0a0a url(../../images/bgd_nav_hover.gif) 0 0 repeat-x;
+}
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over, .ja-megamenu ul.level1 li.mega a.mega:hover{ background: none; }
+
+.ja-megamenu .childcontent-inner{ border-bottom: #668800 solid 5px; }

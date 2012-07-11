@@ -1,0 +1,240 @@
+/*** Sub pages rsform ***/
+.rsform .ja-content-top {
+    float: none;
+}
+
+.rsform .ja-content-main {
+    float: none;
+    width: 735px;
+    padding: 0 10px;
+}
+
+.rsform .ja-content-main p {
+    margin: 5px 0;
+}
+
+.rsform .ja-content-main h4 {
+    font-size: 14px;
+    color: #233F85;
+    text-transform: none;
+    padding: 10px 0 0 0;
+}
+
+.rsform .ja-content-main a.loginlink {
+    color: #555555;
+    text-decoration: none;
+}
+
+.rsform fieldset.formFieldset legend {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    text-transform: none;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li ol.hlist li {
+    padding: 0 20px 0 0;
+    display: inline;
+    float: left;
+    clear: none;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li ol.hlist li.clear {
+    padding: 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li ol.bottom li {
+    vertical-align: bottom;
+}
+
+.formClrInline {
+    clear: both;
+    display: inline;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li table tbody tr td {
+    padding: 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li label {
+    padding-right: 15px;
+}
+
+/* Sponsorship signup form */
+.rsform fieldset.formFieldset ol.formContainer li table.countryAmount tr td {
+    text-align: right;
+    padding: 2px 5px 2px 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li table.countryAmount tr td select {
+    margin-left: 5px;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li table.countryAmount tr td.totalAmountContainer input {
+    border: solid #8F1729 1px;
+    color: #8F1729;
+}
+
+.rsform #BillingOptions1 {
+    margin-top: 35px;
+}
+
+.rsform #RecurringBilling {
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li.RecurringBillingContainer div.RecurringBilling {
+    height: 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li ol.hlist li.RecurringBillingDescriptionContainer textarea {
+    border: solid #8F1729 1px;
+    color: #8F1729;
+    font-style: normal;
+    font-size: 12px;
+    height: 60px;
+    resize: none;
+}
+
+/* Register to view waiting children form */
+.rsform fieldset.formFieldset ol.formContainer li.CredentialNotice {
+    font-weight: bold;
+    color: #233F85;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li.PasswordPolicy {
+    color: #233F85;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li.PrivacyStatement {
+    color: #233F85;
+}
+
+/* Registration form */
+.rsform fieldset.formFieldset ol.formContainer li ol.leftList {
+    float:left;
+    margin-right:50px;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li ol.rightList {
+    float:left;   
+}
+
+.rsform fieldset.formFieldset ol.formContainer li hr {
+    border: #555555;
+    color: #555555;
+    background-color: #555555;
+    height: 1px;
+    margin: 15px 5px 15px 0;
+}
+
+.rsform fieldset.formFieldset ol.formContainer li.genderPoliciesDescription ul li {
+    list-style: disc inside none;
+    padding: 5px 0 0 20px;
+    margin: 0;
+}
+
+/* Events */
+.events div.module h3 {
+    padding: 0;
+}
+
+.events div.eventsDesc {
+    margin-bottom: 10px;
+}
+
+.events div.archiveEvents {
+    margin-top: 40px;
+}
+
+.events div.eventsDesc span {
+    padding: 0 10px;
+}
+
+/* Archived event */
+.archivedEvent .ja-content-main p {
+    margin: 10px 0;
+}
+
+/* Event registration */
+.eventRegistration .ja-content-main ol.formContainer li div.formCaption {
+    width: 10%;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li div.eventDesc img {    
+    float: right;
+    margin: 5px;
+    max-height: 150px;
+}
+
+/* Registration options */
+.eventRegistration .ja-content-main ol.formContainer li ol.registrationOptions {
+    float: left;
+    width: 360px;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li ol.registrationOptions li hr {
+    border: #233F85;
+    color: #233F85;
+    background-color: #233F85;
+    height: 2px;
+    width: 350px;
+    margin: 5px 0;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li ol.registrationOptions li p {
+    margin: 0;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li div.optionsSelected {
+    float: right;
+    width: 340px;
+    margin-right: 10px;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li div.optionsSelected table tr td {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li div.optionsSelected table tr td hr {
+    border: #233F85;
+    color: #233F85;
+    background-color: #233F85;
+    height: 2px;
+    margin: 5px 0;
+}
+
+/* Attendees information */
+.eventRegistration .ja-content-main ol.formContainer li .attendees .attendee {
+    float: left;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li .attendees .attendee span {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li .attendees .attendee span label {
+    padding: 0;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li .attendees .attendee span label.attendeeType {
+    padding: 0 10px 0 0;
+    display: block;
+}
+
+.eventRegistration .ja-content-main ol.formContainer li .attendees .attendee span input {
+    display: block;
+}

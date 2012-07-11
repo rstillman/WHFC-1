@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+.wrap { clear: both; width: 100%; }
+
+.main {
+	margin: 0 auto;
+	max-width: 1200px;
+	position: relative;
+	width: 980px;
+}
+
+.column { float: left; overflow: hidden; }
+
+.ja-mass { clear: both; }
+
+/* Gutter ---*/
+.main .inner {
+	padding-left: 15px; /* We use liquid layout, so we need to insert a div which will create margin if need */
+	padding-right: 15px;
+}
+
+.main .main-inner1 {
+	margin-left: 15px; /* We use liquid layout, so we need to insert a div which will create margin if need */
+	margin-right: 15px;
+}
+
+.column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module {
+	margin-left: 0px; /* for side columns and spotlight, we only need to add margin or padding to Module */
+	margin-right: 0px;
+}
+
+.ja-inset2 div.ja-moduletable, .ja-inset2 .div.moduletable, .ja-inset2 div.ja-module, .ja-inset2 div.module { margin-left: 30px; margin-right: 0; }
+
+.ja-inset1 div.ja-moduletable, .ja-inset1 .div.moduletable, .ja-inset1 div.ja-module, .ja-inset1 div.module { margin-left: 0; margin-right: 30px; }
+
+.item .contentpaneopen {
+	padding-left: 0; /* for article columns, we only need to add margin or padding to this div  */
+	padding-right: 0;
+}
+
+.items-leading { padding-top: 0; margin: 0 0 20px; }
+
+.items-row { margin: 0 0 20px;}
+
+.cols-2 .item .contentpaneopen { padding-right: 15px; word-wrap: break-word; }
+.cols-2 .item .contentpaneopen .contentheading{ font-size: 200%; }
+.cols-2 .item .contentpaneopen .img-border{ width: 95%; }
+
+/* MAIN COLUMN
+--------------------------------------------------------- */
+#ja-mainbody { float: left; }
+
+#ja-current-content, #ja-main { float: right; }
+
+/* SIDE COLUMNS
+--------------------------------------------------------- */
+.ja-colswrap { }
+
+.ja-col { }
+
+/* Left Column ---*/
+#ja-left .ja-l2 .ja-left1, #ja-left .ja-l2 .ja-left2 { width: 50%; }
+
+#ja-left .ja-l1 .ja-col { width: 100%; }
+
+/* Right Column ---*/
+#ja-right { float: right; }
+
+#ja-right .ja-r2 .ja-right1, #ja-right .ja-r2 .ja-right2 { width: 50%; }
+
+#ja-right .ja-r1 .ja-col { width: 100%; }
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header { }
+
+/* FOOTER
+--------------------------------------------------------- */
+#ja-footer { clear: both; }
+
+/* CONTENT'S GRIDS
+--------------------------------------------------------- */
+.item { float: none; position: relative; }
+
+.cols-1 .item { width: 100%; }
+
+.cols-2 .item { width: 50%; }
+
+.cols-3 .item { width: 33.33%; }
+
+.cols-4 .item { width: 25%; }
+
+.cols-5 .item { width: 20%; }
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+#ja-topsl { }
+
+#ja-botsl { }
+
+.ja-box { float: left; overflow: hidden; }
+
+.ja-box-right { position: absolute; right: 0; }
+
+.ja-box-center { max-width: 450px; }

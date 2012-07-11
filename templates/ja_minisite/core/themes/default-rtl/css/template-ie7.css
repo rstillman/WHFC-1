@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+.liveConsulation a{
+	background: url(../images/ico_arrow_01.png) 0 5px no-repeat;
+	display: block;
+	padding: 0 0 0 14px;
+}
+
+#jac-wrapper #jac_image_captcha{ float: right; margin: 0 0 0 20px; }
+
+/* paging */
+.pagination ul { float: none; }
+
+.com_content div.pagination div.pagination {
+	zoom: 1;
+	float: right;
+	width: auto;
+}
+
+/* --- Sub-category block --- */
+div.itemListSubCategories { width: 100%; }
+
+div.catItemCategory a, div.catItemTagsBlock ul.catItemTags li a, div.itemCategory a, ul.itemTags li a, div.userItemTagsBlock ul.userItemTags li a{ display: inline-block; padding: 0 4px; }
+
+#jac-wrapper .comment-quoteclose{ margin-top: -10px; }
+
+/* Component: Item view */
+div.itemTagsBlock ul.itemTags li, .ja-content-main ul.itemTags li{ display: inline; }
+
+div.itemTagsBlock span, #jac-wrapper .type_captcha, #jac-new-captcha{ float: none; }
+
+/* rating */
+.itemRatingForm{ float: none; margin-top: 3px; zoom: 1; }
+
+.itemToolbar .itemRatingList, .itemRatingLog { float: right; }
+
+/* footer */
+.ja-footnav ul { margin-right:-10px; }
+
+.ja-footnav li { padding:0 10px; margin:0; }
+
+.ja-footnav li:first-child{ padding-right:10px; }
+
+/* paging */
+.pagination { float:none; }
+
+.pagination .pagination { float:left; }
+
+
+/* item style */
+.items-leading img[align=left],
+.img_caption.left {
+	float: left !important;
+}
+
+
+.ja-slidewrap_minisite {
+	overflow: hidden;
+}
+
+.ja-slide-thumbs-handles {
+	display: none;
+}

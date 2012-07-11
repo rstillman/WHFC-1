@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+.ja-bulletin
+{
+	position:relative;
+}
+.ja-bulletin ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.ja-bulletin ul li {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	line-height: normal;
+	border-bottom: #e8e8e8 solid 1px;
+	min-height: 40px;
+	padding: 10px 0 !important;
+	overflow: hidden;
+}
+
+.ja-bulletin ul img {
+	position: absolute;
+	left: 0;
+}
+
+.ja-bulletin ul div {
+	line-height: 1.2;
+	display: block;
+}
+
+.ja-bulletin ul span {
+	font-size: 85%;
+	color: #999999;
+}
+
+.ja-bulletin ul, ul.ja-bullettin{ margin: 10px 0 !important; }
+
+.ja-bulletin ul li:hover img, ul.ja-bullettin li:hover img{ background-color: #222; }
+
+.ja-bulletin ul img, ul.ja-bullettin img{ border: #e8e8e8 solid 1px; padding: 4px; top: 10px; }
+
+.ja-bulletin ul div, ul.ja-bullettin div{ font-size: 92%; }
+
+.ja-bulletin a.mostread, ul.ja-bullettin a.mostread{ color: #555;display: inline-block;margin-left: 10px; }
+
+.ja-bulletin a.mostread:hover, ul.ja-bullettin a.mostread:hover{ color: #1478C4; text-decoration: none; }

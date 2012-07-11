@@ -1,0 +1,98 @@
+/*
+# ------------------------------------------------------------------------
+# Ja Minisite Template for Joomla 1.5
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+# ------------------------------------------------------------------------
+*/
+
+#jac-wrapper .comment-contentmain{ padding-left: 10px; padding-right: 65px; }
+
+#jac-wrapper .avatar{ left: auto; right: 10px; }
+
+#jac-wrapper .comment-action { overflow: hidden; position: relative; margin-right:-56px; margin-left:0 }
+
+#jac-wrapper .comment-action a {
+	display: inline-block;
+	float: none;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+#jac-wrapper .comment-report a{ display: block; }
+
+#jac-wrapper .comment-report, #jac-wrapper .comment-ranking, #jac-wrapper .comment-ranking span.comment-rankingresult, #jac-wrapper .comment-ranking .jac-vote-comment a{ float: left; }
+
+#jac-wrapper .comment-heading a.comment-user, #jac-wrapper .comment-heading span.comment-user{ float: right; margin: 0 0 0 5px; }
+
+#jac-wrapper .comment-report a.report-btn, #jac-wrapper .comment-heading a.comment-user span{ float: none; }
+
+#jac-wrapper .comment-order{ left: 5px; right: auto; }
+
+#jac-wrapper .status-isapproved span.status-btn{ float: left; }
+
+#jac-wrapper .comment-admin{ float: left; margin: -3px 0 0 40px; }
+
+#jac-wrapper .comment-menu .menu-content { left: 0; }
+
+#jac-wrapper .comment-menu .menu-content ul{ margin-left: 27px; }
+
+#jac-wrapper li.buttons{ width: auto !important; }
+
+#jac-wrapper li span { float: right; }
+
+#jac-wrapper .comment-action a span, #jac-wrapper .type_captcha span, #jac-wrapper li .comment-ranking span{ float: none; }
+
+#jac-wrapper li .comment-ranking span{ display: inline-block; padding-top: 3px; }
+
+#jac-new-captcha{ float: right !important; width: 70%; }
+
+#jac-wrapper #jac_image_captcha { float: right; margin-right: 0; }
+
+#jac-wrapper .form-userdata span{ margin-left: 10px; margin-right: 0; }
+
+#jac-wrapper li.buttons input {
+	background-image: url(../images/ico_arrow_01.png);
+	background-position: 10px 50%;
+	float: right;
+	margin-left: 5px;
+	margin-right: 0;
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+
+#jac-wrapper .listBtn{ float: right; font-size: 92%; position: relative; }
+
+#jac-wrapper .comment-quoteclose{ float: right; margin-top: 5px; }
+
+#jac-wrapper li .jac-text-blow-guest{ float: none; }
+
+#jac-login-rpx { float:right; }
+
+/* Sort by ---*/
+#jac-sort a, #jac-sort span { float: right; }
+
+#jac-sort span { padding: 0 0 0 5px; } 
+
+#jac-sort a {
+	border-left: 1px solid #ccc;
+	border-right: none;
+	padding: 0 12px 0 10px;
+	margin: 0 0 0 8px;
+}
+
+.jac-sort-by {
+	background-position: 100% 1px;
+}
+
+.jac-sort-by-active-desc {
+	background-position: 100% -37px;
+}
+
+.jac-sort-by-active-asc {
+	background-position: 100% -16px;
+}

@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------------------
+ * Ja Minisite Template for Joomla 1.7
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 JoomlArt.com. All Rights Reserved.
+ * @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+ * bound by Proprietary License of JoomlArt. For details on licensing, 
+ * Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+ * Author: JoomlArt.com
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * Redistribution, Modification or Re-licensing of this file in part of full, 
+ * is bound by the License applied. 
+ * ------------------------------------------------------------------------
+*/
+body{ text-align: right; }
+
+.actions li { text-align: left; }
+
+ div.itemToolbar ul li a.itemCommentsLink, div.itemToolbar ul li .itemTextResizerTitle, div.itemToolbar ul li a#fontIncrease, div.itemToolbar ul li a#fontDecrease { display: none; }
+
+ div.itemToolbar ul > li:first-child{ border: none; }
+
+div.itemToolbar ul{ text-align: left; }
+
+div.item-page ul li {
+    background-position: 99% 6px;     
+    padding-right: 30px;
+}
