@@ -5,6 +5,7 @@
 		<file>css/whfc.general.css</file>
 		<file>css/whfc.homepage.css</file>
 		<file>css/whfc.subpage.css</file>
+		<file>css/whfc.subpage.content.css</file>
 		<file>css/whfc.subpage.rsform.css</file>
 	</stylesheets>
 	<blocks name="top" style="xhtml">	
@@ -16,7 +17,6 @@
 		<block name="topsl-2" type="spotlight">user9,user10</block>
 		<block name="topsl" type="spotlight">user1,user2,user3,user4</block>
 		<block name="topsl1" type="spotlight">user5,user6,user7,user8</block>
-
 	</blocks>
 	<blocks name="middle">
 		<block name="right1">left</block>
