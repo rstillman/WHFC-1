@@ -1,1 +1,425 @@
-<p>/*** Sub pages ***/ .bodysubpage #ja-mainbody { width: auto; max-width: 758px; min-height: 515px; margin-top: 20px; border-right: 1px solid #EAE8AF; } .bodysubpage #ja-main .inner { padding: 0; } .bodysubpage #ja-right { width: auto; max-width: 210px; margin-top: 20px; } .bodysubpage #ja-right2 { min-width: 205px; } .bodysubpage #ja-contentwrap { min-width: 758px; } /* System message */ .bodysubpage #system-message { max-width: 745px; } /* top banner */ .bodysubpage #ja-topbanner { height: 60px; } .bodysubpage #ja-topbanner .main { background: url("/images/background/sub-cntr-blue-bg.png") repeat-x scroll 0 0 #FFFFFF; max-width: none; width: 100%; height: 60px; } .bodysubpage #ja-topbanner .main .ja-moduletable { margin: 0 auto; max-width: 990px; } .bodysubpage #ja-topbanner h3 { color: #B1CCD9; font-size: 500%; font-weight: 100; padding: 10px 0 0 0; } /* modules */ .bodysubpage div.ja-module, .bodysubpage div.module { margin: 0; } /* breadcrums */ .bodysubpage #ja-breadcrums span a { text-transform: none; } /* content top */ .bodysubpage .ja-content-top { width: 195px; float: left; min-height: 515px; /*border-right: 1px solid #EAE8AF;*/ } /* left column module title */ .bodysubpage .ja-content-top h3 { font-size: 26px; margin: 0; } /* categories */ .bodysubpage .ja-content-top ul.categories-module { background: url("/images/background/sub-nav-bg.png") repeat-y scroll 0 0 #FFFFFF; list-style-type: none; padding: 15px 10px; margin: 0 0 10px 0; } .bodysubpage .ja-content-top ul.categories-module li { list-style-type: none; padding: 5px 0 0 0; } .bodysubpage .ja-content-top ul.categories-module li h5 a { color: #000; font-size: 14px; } /* latest events */ .bodysubpage .ja-content-top div.moduletable-latestEvents { margin: 0; } .bodysubpage .ja-content-top ul.latestEvents { list-style-type: none; padding: 0; margin: 0; } .bodysubpage .ja-content-top ul.latestEvents li { background: url("/images/buttons/circlearrow-bullet.png") no-repeat 0px 5px; padding: 5px 0 0 20px; } .bodysubpage .ja-content-top ul.latestEvents li h5 a { color: #666; font-size: 14px; } /* content main */ .bodysubpage .ja-content-main { width: 530px; float: right; padding: 0px 15px; } .bodysubpage .ja-content-main .items-row { padding-top: 0; } .bodysubpage .ja-content-main h2 { font-family: Arial,Helvetica,sans-serif; font-size: 26px; font-weight: bold; text-transform: none; } .bodysubpage .ja-content-main h3 { font-family: Arial,Helvetica,sans-serif; font-size: 18px; font-weight: bold; text-transform: none; } .bodysubpage .ja-content-main p { margin: 10px 0 10px 0; } .bodysubpage .ja-content-main ul { list-style: disc inside none; } /* content main image */ .bodysubpage .ja-content-main p img { max-width: 100%; max-height: 220px; padding-bottom: 10px; } /* Right box on sub page */ #rightBox { overflow: hidden; margin-bottom: 10px; padding: 10px; } #rightBox div { padding-bottom: 35px; } #rightBox h4 { font-family: 'DINNextW01-CondensedBol'; font-size: 26px; font-weight: normal; } /* Donate online */ div.donateOnline { width: 189px; background: url("/images/background/donate-now-bg.png") repeat-x 0px 0px; } div.donateOnline p { color: #B1CCD9; padding-left: 2px; font-size: 14px; } div.donateOnline img { padding: 5px 0; } /* Sponsor a child */ div.sponsorAChild { width: 187px; background: url("/images/background/sponsor-child-bg.png") no-repeat 0px 0px; border: solid 1px #7B97A5; } div.sponsorAChild table { margin-top: 10px; } div.sponsorAChild table tr td { vertical-align: top; color: #578CB7; font-size: 14px; font-weight: bold; } div.sponsorAChild p.intro { font-size: 14px; } div.sponsorAChild p.details { font-size: 12px; } /* Request adoption information */ div.requestAdoptionInfo { width: 189px; background-color: #EC9F00; margin-top: 5px; } div.requestAdoptionInfo h4 { color: #FFF; } div.requestAdoptionInfo p { font-size: 14px; } requestAdoptionInfo a { color:#fff; } /*** User profile pages ***/ /* User login, registration, forgot user name, forgot password*/ .userpage .ja-content-main { width: auto; float: none; } .userpage div.userRegistration legend { padding-bottom: 10px; } .userpage div.userRegistration dl dt { padding-right: 10px; } /* User login */ div.loginsubpage .login-fields { margin-bottom: 15px; } div.loginsubpage .login-fields label { display: block; float: left; min-width: 80px; line-height: 23px; } div.loginsubpage button { background: none repeat scroll 0 0 #1478C4; border: medium none; color: #FFFFFF; height: 25px; line-height: 25px; padding: 0 10px; } div.loginsubpage button:hover { background: none repeat scroll 0 0 #222222; } div.loginlinksubpage ul li { padding-left: 0; margin-top: 5px; } /* Edit profile */ div.profile-editsubpage fieldset dt { min-width: 180px; } /*** Admin pages ***/ /* Admin login, registration, forgot user name, forgot password*/ .adminfunction #ja-mainbody { width: auto; max-width: none; float: none; border-right: none; } .adminpage #ja-mainbody { border-right: none; } .adminpage .ja-content-main { width: auto; float: none; border: none; } .adminpage .ja-content-main p { margin: 0; } .adminfunction .ja-content-main { width: 750px; float: left; } /* Hide the title */ .adminfunction .ja-content-main .item-pagesubpage h2 { display: none; } /* Admin function menu */ .adminfunction .adminMenu { margin-bottom: 10px; } .adminfunction .adminMenu span { padding: 0 10px; } .adminfunction table.dataTable span { padding: 0 3px; } /* Forms layout */ #userForm table tr td { vertical-align: top; } #jsErrorMsg { display: none; color: red; font-weight: bold; } .ja-content-main span.required { color: red; } /* Event photo */ table.eventPhotos img.thumbnail { max-width: 180px; } table.eventPhotos img.photo { max-width: 250px; } /* Event schedule */ .adminfunction .ja-content-main .item-pagesubpage span.fc-header-title h2 { display: inline; } /* Event item */ table.eventItems tr td { padding: 5px 5px 5px 0; } table.eventItems tr td hr { height: 3px; border: 0; background-color: #CCC; color: #CCC; } table.eventItems tr td span { padding: 0 3px; } table.eventItems tr td p { display: inline; } /* Event calendar */ .fc-event-time, .fc-event-title { display: block; } /* Display Tables */&nbsp;table.resources { width: 100%; border-top: 1px solid #578cb7; border-left: 1px&nbsp;solid #578cb7; } table.resources th { background-color: #578cb7; color:&nbsp;#fff; text-align: left; padding: 0.25em 0.5em; } table.resources td {&nbsp;border-right: 1px solid #578cb7; border-bottom: 1px solid #578cb7; padding:&nbsp;0.25em 0.5em; } table.resources td.subsection { background-color: #cde3ef;&nbsp;color: #578cb7; font-weight: bold; } table.inpage { width: 135px; float:&nbsp;right; margin: 0 0 6px 12px; border: 1px solid #578cb7; background-color:&nbsp;#cde3ef; } table.inpage td { padding: 0.25em; }</p>
+/*** Sub pages ***/
+.bodysubpage #ja-mainbody {
+    width: auto;
+    max-width: 758px;
+    min-height: 515px;
+    margin-top: 20px;
+    border-right: 1px solid #EAE8AF;
+}
+
+.bodysubpage #ja-main .inner {
+    padding: 0;
+}
+
+.bodysubpage #ja-right {
+    width: auto;
+    max-width: 210px;
+    margin-top: 20px;
+}
+
+.bodysubpage #ja-right2 {
+    min-width: 205px;
+}
+
+.bodysubpage #ja-contentwrap {
+    min-width: 758px;
+}
+
+/* System message */
+.bodysubpage #system-message {
+    max-width: 745px;
+}
+
+/* top banner */
+.bodysubpage #ja-topbanner {
+    height: 60px;
+}
+
+.bodysubpage #ja-topbanner .main {
+    background: url("/images/background/sub-cntr-blue-bg.png") repeat-x scroll 0 0 #FFFFFF;
+    max-width: none;
+    width: 100%;
+    height: 60px;
+}
+
+.bodysubpage #ja-topbanner .main .ja-moduletable {
+    margin: 0 auto;
+    max-width: 990px;
+}
+
+.bodysubpage #ja-topbanner h3 {
+    color: #B1CCD9;
+    font-size: 500%;
+    font-weight: 100;
+    padding: 10px 0 0 0;
+    
+}
+
+/* modules */
+.bodysubpage div.ja-module,
+.bodysubpage div.module {
+    margin: 0;
+}
+
+/* breadcrums */
+.bodysubpage #ja-breadcrums span a {
+    text-transform: none;
+}
+
+/* content top */
+.bodysubpage .ja-content-top {
+    width: 195px;
+    float: left;
+    min-height: 515px;
+    /*border-right: 1px solid #EAE8AF;*/
+}
+
+/* left column module title */
+.bodysubpage .ja-content-top h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+/* categories */
+.bodysubpage .ja-content-top ul.categories-module {
+    background: url("/images/background/sub-nav-bg.png") repeat-y scroll 0 0 #FFFFFF;
+    list-style-type: none;
+    padding: 15px 10px;
+    margin: 0 0 10px 0;
+}
+
+.bodysubpage .ja-content-top ul.categories-module li {
+    list-style-type: none;
+    padding: 5px 0 0 0;
+}
+
+.bodysubpage .ja-content-top ul.categories-module li h5 a {
+    color: #000;
+    font-size: 14px;
+}
+
+/* latest events */
+.bodysubpage .ja-content-top div.moduletable-latestEvents {
+    margin: 0;
+}
+
+.bodysubpage .ja-content-top ul.latestEvents {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bodysubpage .ja-content-top ul.latestEvents li {
+    background: url("/images/buttons/circlearrow-bullet.png") no-repeat 0px 5px;
+    padding: 5px 0 0 20px;
+}
+
+.bodysubpage .ja-content-top ul.latestEvents li h5 a {
+    color: #666;
+    font-size: 14px;
+}
+
+/* content main */
+.bodysubpage .ja-content-main {
+    width: 530px;
+    float: right;
+    padding: 0px 15px;
+}
+
+.bodysubpage .ja-content-main .items-row {
+    padding-top: 0;
+}
+
+.bodysubpage .ja-content-main h2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.bodysubpage .ja-content-main h3 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.bodysubpage .ja-content-main p {
+    margin: 10px 0 10px 0;
+}
+
+.bodysubpage .ja-content-main ul {
+    list-style: disc inside none;
+}
+
+/* content main image */
+.bodysubpage .ja-content-main p img {
+    max-width: 100%;
+    max-height: 220px;
+    padding-bottom: 10px;
+}
+
+/* Right box on sub page */
+#rightBox {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#rightBox div {
+    padding-bottom: 35px;
+}
+
+#rightBox h4 {
+    font-family: 'DINNextW01-CondensedBol';
+    font-size: 26px;
+    font-weight: normal;
+}
+
+/* Donate online */
+div.donateOnline {
+    width: 189px;
+    background: url("/images/background/donate-now-bg.png") repeat-x 0px 0px;
+}
+
+div.donateOnline p {
+    color: #B1CCD9;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+div.donateOnline img {
+    padding: 5px 0;
+}
+
+/* Sponsor a child */
+div.sponsorAChild {
+    width: 187px;
+    background: url("/images/background/sponsor-child-bg.png") no-repeat 0px 0px;
+    border: solid 1px #7B97A5;
+}
+
+div.sponsorAChild table {
+    margin-top: 10px;
+}
+
+div.sponsorAChild table tr td {
+    vertical-align: top;
+    color: #578CB7;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.sponsorAChild p.intro {
+    font-size: 14px;
+}
+
+div.sponsorAChild p.details {
+    font-size: 12px;
+}
+
+/* Request adoption information */
+div.requestAdoptionInfo {
+    width: 189px;
+    background-color: #EC9F00;
+    margin-top: 5px;
+}
+
+div.requestAdoptionInfo h4 {
+    color: #FFF;
+}
+
+div.requestAdoptionInfo p {
+    font-size: 14px;
+}
+
+/*** User profile pages ***/
+
+/* User login, registration, forgot user name, forgot password*/
+.userpage .ja-content-main {
+    width: auto;
+    float: none;
+}
+
+.userpage div.userRegistration legend {
+    padding-bottom: 10px;
+}
+
+.userpage div.userRegistration dl dt {
+    padding-right: 10px;
+}
+
+/* User login */
+div.loginsubpage .login-fields {
+    margin-bottom: 15px;
+}
+
+div.loginsubpage .login-fields label {
+    display: block;
+    float: left;
+    min-width: 80px;
+    line-height: 23px;
+}
+
+div.loginsubpage button {
+    background: none repeat scroll 0 0 #1478C4;
+    border: medium none;
+    color: #FFFFFF;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+
+div.loginsubpage button:hover {
+    background: none repeat scroll 0 0 #222222;
+}
+
+div.loginlinksubpage ul li {
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+/* Edit profile */
+div.profile-editsubpage fieldset dt {
+    min-width: 180px;
+}
+
+/*** Admin pages ***/
+
+/* Admin login, registration, forgot user name, forgot password*/
+.adminfunction #ja-mainbody {
+    width: auto;
+    max-width: none;
+    float: none;
+    border-right: none;
+}
+
+.adminpage #ja-mainbody {
+    border-right: none;
+}
+
+.adminpage .ja-content-main {
+    width: auto;
+    float: none;
+    border: none;
+}
+
+.adminpage .ja-content-main p {
+    margin: 0;
+}
+
+.adminfunction .ja-content-main {
+    width: 750px;
+    float: left;
+}
+
+/* Hide the title */
+.adminfunction .ja-content-main .item-pagesubpage h2 {
+    display: none;
+}
+
+/* Admin function menu */
+.adminfunction .adminMenu {
+    margin-bottom: 10px;
+}
+
+.adminfunction .adminMenu span {
+    padding: 0 10px;
+}
+
+.adminfunction table.dataTable span {
+    padding: 0 3px;
+}
+
+/* Forms layout */
+#userForm table tr td {
+    vertical-align: top;
+}
+
+#jsErrorMsg {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
+.ja-content-main span.required {
+    color: red;
+}
+
+/* Event photo */
+table.eventPhotos img.thumbnail {
+    max-width: 180px;
+}
+
+table.eventPhotos img.photo {
+    max-width: 250px;
+}
+
+/* Event schedule */
+.adminfunction .ja-content-main .item-pagesubpage span.fc-header-title h2 {
+    display: inline;
+}
+
+/* Event item */
+table.eventItems tr td {
+    padding: 5px 5px 5px 0;
+}
+
+table.eventItems tr td hr {
+    height: 3px;
+    border: 0;
+    background-color: #CCC;
+    color: #CCC;
+}
+
+table.eventItems tr td span {
+    padding: 0 3px;
+}
+
+table.eventItems tr td p {
+    display: inline;
+}
+
+/* Event calendar */
+.fc-event-time, .fc-event-title {
+    display: block;
+}
+
+/* Display Tables */
+table.resources {
+    width: 100%;
+    border-top: 1px solid #578cb7;
+    border-left: 1px
+    solid #578cb7;
+}
+
+table.resources th {
+    background-color: #578cb7;
+    color: #fff;
+    text-align: left;
+    padding: 0.25em 0.5em;
+}
+
+table.resources td {
+    border-right: 1px solid #578cb7;
+    border-bottom: 1px solid #578cb7;
+    padding: 0.25em 0.5em;
+}
+
+table.resources td.subsection {
+    background-color: #cde3ef;
+    color: #578cb7;
+    font-weight: bold;
+}
+
+table.inpage {
+    width: 135px;
+    float: right;
+    margin: 0 0 6px 12px;
+    border: 1px solid #578cb7;
+    background-color: #cde3ef;
+}
+
+table.inpage td {
+    padding: 0.25em;
+}
